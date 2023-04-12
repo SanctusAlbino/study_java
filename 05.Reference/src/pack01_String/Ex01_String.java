@@ -21,6 +21,11 @@ public class Ex01_String {
 		//new <- 힙 영역에 공간을 만들다. 
 		String strVar3 = new String("KGH");
 		String strVar4 = new String("KGH");
+		if (strVar3==strVar4) {
+			System.out.println("같음");
+		}else {
+			System.out.println("다름");
+		}
 		
 		Scanner sc = new Scanner(System.in);
 		String strVar5 = sc.nextLine(); //이니셜을 대문자로 입력하기

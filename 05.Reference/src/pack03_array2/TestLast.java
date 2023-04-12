@@ -37,6 +37,9 @@ public class TestLast {
 		//해당 내용을 오름차순 또는 내림차순으로 정렬해서 보여주기.
 		//작업후 => arr => { 1 ,~~~9 } { 9~~1 }
 		int [] arrSort = { 3 , 4 , 6 , 7 , 8 , 9 , 1 , 2 , 5 };
+//-> 이렇게 해도 답임		//Arrays.sort(arrSort);
+		//System.out.println(Arrays.toString(arrSort));
+		
 		for(int i=0; i < arrSort.length; i++)
 			for(int j= i+1; j<arrSort.length; j++ ) {
 				if(arrSort[i]> arrSort[j]) {
