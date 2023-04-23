@@ -14,11 +14,12 @@ public class StudentMain {
 		//DTO 상태정보
 		//DAO 기능
 		StudentDTO dto1 = new StudentDTO(1, "김건호", 50, 100, 50);
-		StudentDTO dto2 = new StudentDTO(2, "rlarjsgh", 60, 10, 20);
+		
 		StudentDAO dao = new StudentDAO();
 		dao.display(dto1);
-		dao.display(dto2);
 		
-		
+		System.out.println("========");
+		dto1.setScore1(80);
+		dao.display(dto1);
 	}
 }
