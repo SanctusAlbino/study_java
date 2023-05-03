@@ -39,6 +39,7 @@ public class Phone {
 	}
 	void calling() {
 		setState("통화중");
+		
 		System.out.println("상대방의 번호를 입력해주세요.");
 		call = sc.nextLine();
 		
