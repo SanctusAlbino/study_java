@@ -48,7 +48,7 @@ public class EmpDAO { // 실제 데이터베이스와 연동하여 요구사항 
 	}
 
 	// data가 테스트할때까지는 row(행)개수가 1이었음. ->107
-	public void selectEmp() {
+	public ArrayList<EmpDTO> selectEmp() {
 		conn = getConn();
 		String sql = " select EMPLOYEE_ID, FIRST_NAME||' '||LAST_NAME name, EMAIL FROM employees  "; 
 		ArrayList<EmpDTO>list = new ArrayList<EmpDTO>();
@@ -66,7 +66,7 @@ public class EmpDAO { // 실제 데이터베이스와 연동하여 요구사항 
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		
+		return list;
 		
 	}
 

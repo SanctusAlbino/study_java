@@ -14,7 +14,7 @@ public class Ex01_Myjar {
 //		List<BoardDTO> list = new ArrayList<BoardDTO>();
 //		dao.getDisplay(null);
 		Test01_MemberDTO tmd = new Test01_MemberDTO("kgh", "ghgh", "김김김", 26);
-		System.out.println(tmd);
+		
 		
 	}
 }
