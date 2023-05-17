@@ -1,19 +1,19 @@
 package poly;
 
-public class 김건호 implements 사람 {
+public class 源�嫄댄샇 implements �궗�엺 {
 
-	@Override
-	public void 호흡() {
-		System.out.println("숨쉰다.");
+	@Overridefddfdffddffdfd
+	public void �샇�씉() {
+		System.out.println("�닲�돭�떎.");
 		
 	}
 
 	@Override
-	public boolean 생사여부() {
-		System.out.println("살고있다.");
+	public boolean �깮�궗�뿬遺�() {
+		System.out.println("�궡怨좎엳�떎.");
 		return true;
 	}
-	public void 공부() {
-		System.out.println("공부합니다.");
+	public void 怨듬�() {
+		System.out.println("怨듬��빀�땲�떎.");
 	}
 }
