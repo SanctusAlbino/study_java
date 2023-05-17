@@ -3,10 +3,21 @@ package fifa;
 public class FifaDTO {
 	private int PLAYER_NUM; 
 	private String PLAYER_NAME, PLAYER_AGE, HEIGHT, MAIN_FOOT, POSITION;
+	private int PRICE;
 	
 	
 	
 	
+	public int getPRICE() {
+		return PRICE;
+	}
+	public void setPRICE(int pRICE) {
+		PRICE = pRICE;
+	}
+	public FifaDTO(int pRICE) {
+		
+		PRICE = pRICE;
+	}
 	public FifaDTO(int pLAYER_NUM, String pLAYER_NAME, String pLAYER_AGE, String hEIGHT, String mAIN_FOOT,
 			String pOSITION) {
 		PLAYER_NUM = pLAYER_NUM;
