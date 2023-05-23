@@ -3,7 +3,7 @@ package dao.dto.method;
 public class Method {
 	public static void main(String[] args) {
 		Method mt = new Method();
-		mt.동용돈(10000);
+		mt.동용돈(10);
 		
 		int money =mt.라면심부름(100000);
 		System.out.println("남은 금액은??"+money);
@@ -21,7 +21,7 @@ public class Method {
 		System.out.println("심부름 시킴" + money + "원을 줌");
 		System.out.println("수고비와 재료 깎임 50000");
 		System.out.println("내 위치는 메인 메소드");
-		money-= 50000;
+		money-= 30000;
 		return money;
 	}
 	

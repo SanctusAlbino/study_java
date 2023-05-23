@@ -5,7 +5,7 @@ public class SuperParent implements TestInterface, Camera {
 
 	// 1세대로 만드는 클래스
 
-	int superField = 10;
+	int superField = 20;
 
 	void superMethod() {
 		System.out.println(" SuperParent 부모 클래스");

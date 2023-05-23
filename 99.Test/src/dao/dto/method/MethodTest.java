@@ -4,6 +4,7 @@ public class MethodTest {
 	public void waste(int my1) {
 		my1 = 1050;
 		System.out.println(my1+"버림");
+	
 	}
 	
 	public int send(int my2) {

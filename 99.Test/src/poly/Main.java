@@ -2,8 +2,8 @@ package poly;
 
 public class Main {
 	public static void main(String[] args) {
-		// 영문쌤 yms = new 영문쌤();
-		// 김건호 kgh = new 김건호();
+		 영문쌤 yms = new 영문쌤();
+		 김건호 kgh = new 김건호();
 
 		// 모든 사람들이 일괄적으로 호흡하게 만들고싶음. <= 모든 사람 인터페이스를 상속받은 객체들은 반드시
 		// 호흡과 생사여부라는 메소드가 구현되어있음 (abstract)
@@ -15,5 +15,7 @@ public class Main {
 			사람들[i].호흡();
 			사람들[i].생사여부();
 		}
+	   yms.코딩();
+		
 	}
 }

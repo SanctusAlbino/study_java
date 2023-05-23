@@ -22,7 +22,7 @@ public class ChildClass extends SuperParent {
 	}
 
 	public void childMethod() {
-		System.out.println(superField);
+		System.out.println(superField+"dl");
 		superMethod();
 	}
 }
